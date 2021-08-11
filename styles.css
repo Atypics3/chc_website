@@ -29,12 +29,6 @@
   padding-left: 100px;
 }
 
-/* custom color */
-.bg-custom-color {
-  --bs--bg--opacity: 1;
-  background: seagreen;
-}
-
 #navbar button {
   color: white !important;
 }
