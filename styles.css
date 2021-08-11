@@ -1,3 +1,4 @@
+/* defaults */
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,6 @@
 }
 
 /* navbar */
-
 .navbar-nav {
   margin-right: 0 !important;
   padding-right: 100px;
@@ -34,7 +34,6 @@
 }
 
 /* banner */
-
 #banner-container {
   background-color: #0a193d;
   color: white !important;
@@ -66,17 +65,6 @@ p {
 #banner-col {
   padding-left: 20px;
 }
-/* service */
-#service {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-#service h1 {
-  padding-bottom: 70px;
-}
-
-/* about */
 
 #about {
   padding-top: 80px;
@@ -87,7 +75,8 @@ p {
   padding-bottom: 70px;
 }
 
-#about-col ul {
+#about-col ul,
+fieldset {
   padding-top: 50px;
   padding-left: 50px;
 }
@@ -96,46 +85,7 @@ p {
   padding-top: 15px;
 }
 
-/* product */
-
-#product {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-#product h1 {
-  padding-bottom: 70px;
-}
-
-#product-col2 ul {
-  padding-top: 90px;
-}
-
-#product-col2 ul li {
-  padding-top: 15px;
-}
-
-/* social */
-
-#social {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-#social h1 {
-  padding-bottom: 70px;
-}
-
-.social-col a:hover img {
-  transform: translateY(-10px);
-}
-
-#social-row {
-  flex-direction: row;
-}
-
 /* footer */
-
 .mb-3 {
   padding-top: 10px;
 }
