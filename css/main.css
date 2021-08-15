@@ -1,8 +1,19 @@
-/* defaults */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+body,
+html {
+  height: 100vh;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../assets/banner.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* navbar */
@@ -13,19 +24,19 @@
 
 .navbar {
   background-color: #0a193d;
-  color: white !important;
+  /* color: white !important; */
 }
 
-.nav-item a {
+/* .nav-item a {
   color: white !important;
-}
+} */
 
 .nav-item {
   padding-left: 2px;
 }
 
 .navbar-brand {
-  color: white !important;
+  /* color: white !important; */
   padding-left: 100px;
 }
 
@@ -36,7 +47,7 @@
 /* banner */
 #banner-container {
   background-color: #0a193d;
-  color: white !important;
+  /* color: white !important; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -56,8 +67,8 @@ p {
 }
 
 #banner-row a {
-  background-color: white !important;
-  color: black !important;
+  /* background-color: white !important; */
+  /* color: black !important; */
   border: none;
   margin-left: 20px;
   margin-top: 20px;
@@ -66,6 +77,7 @@ p {
   padding-left: 20px;
 }
 
+/* about section */
 #about {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -90,7 +102,7 @@ fieldset {
   padding-top: 10px;
 }
 
-/* media */
+/* responsiveness section */
 @media only screen and (max-width: 987px) {
   .navbar-brand {
     padding-left: 0px;

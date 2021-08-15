@@ -31,13 +31,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   // get the form elements defined in your form HTML above
-
   var form = document.getElementById("my-form");
+
   // var button = document.getElementById("my-form-button");
   var status = document.getElementById("status");
 
   // Success and Error functions for after the form is submitted
-
   function success() {
     form.reset();
     status.classList.add("success");
@@ -49,8 +48,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
     status.innerHTML = "Oops! There was a problem.";
   }
 
+  function resetMeg() {
+    status.classList.add("reset");
+    status.innerHTML = "Resetted the form!";
+  }
   // handle the form submission event
-
   form.addEventListener("submit", function (ev) {
     ev.preventDefault();
     var data = new FormData(form);
@@ -58,8 +60,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   // handle the form clear event (WIP)
-  form.addEventListener("clear", function (ev) {
-    console.log("testing!");
+  form.addEventListener("clear", function () {
+    form.reset();
+    resetMeg();
+    // document.getElementById("my-form").reset();
   });
 });
 

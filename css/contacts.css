@@ -53,14 +53,15 @@ button[type="submit"] {
   font-size: 24px;
   border-radius: 8px;
   font-family: "Montserrat";
-  color: rgb(27, 166, 247);
+  color: black;
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
   transition: 0.3s ease background-color;
 }
+
 button[type="submit"]:hover {
-  background-color: rgb(214, 226, 236);
+  background-color: #2e7d32;
 }
 
 button[type="clear"] {
@@ -71,7 +72,7 @@ button[type="clear"] {
   font-size: 24px;
   border-radius: 8px;
   font-family: "Montserrat";
-  color: rgb(184, 63, 63);
+  color: black;
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
@@ -79,7 +80,7 @@ button[type="clear"] {
 }
 
 button[type="clear"]:hover {
-  background-color: rgb(100, 167, 129);
+  background-color: #c62828;
 }
 
 /* submission messages */
