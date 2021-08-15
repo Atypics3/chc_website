@@ -48,22 +48,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
     status.innerHTML = "Oops! There was a problem.";
   }
 
-  function resetMeg() {
-    status.classList.add("reset");
-    status.innerHTML = "Resetted the form!";
-  }
   // handle the form submission event
   form.addEventListener("submit", function (ev) {
     ev.preventDefault();
     var data = new FormData(form);
     ajax(form.method, form.action, data, success, error);
-  });
-
-  // handle the form clear event (WIP)
-  form.addEventListener("clear", function () {
-    form.reset();
-    resetMeg();
-    // document.getElementById("my-form").reset();
   });
 });
 

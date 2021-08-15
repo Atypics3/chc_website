@@ -64,7 +64,7 @@ button[type="submit"]:hover {
   background-color: #2e7d32;
 }
 
-button[type="clear"] {
+.clear {
   width: 100%;
   border: none;
   outline: none;
@@ -79,7 +79,7 @@ button[type="clear"] {
   transition: 0.3s ease background-color;
 }
 
-button[type="clear"]:hover {
+.clear:hover {
   background-color: #c62828;
 }
 

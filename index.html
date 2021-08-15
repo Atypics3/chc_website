@@ -219,6 +219,7 @@
                 Please fill out the form below and click submit in order to get
                 meeting notifications via email!
               </p>
+              <!-- submit form and submit/clear buttons -->
               <form
                 action="https://formspree.io/f/xleapqko"
                 method="POST"
@@ -249,9 +250,9 @@
                   ></textarea>
                 </div>
 
+                
                 <button type="submit">Submit</button>
-
-                <button type="clear">Clear</button>
+                <input type="button" class="clear" onclick="clearFtn()" value="Clear"/>
               </form>
             </div>
             <div id="status"></div>
@@ -272,10 +273,16 @@
         </p>
       </div>
     </footer>
-
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <!-- clear function, only works here for some reason -->
+    <script>
+    function clearFtn() {
+      document.getElementById("my-form").reset();
+    }
+   </script>
   </body>
 </html>
