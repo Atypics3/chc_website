@@ -20,9 +20,8 @@
       rel="stylesheet"
       id="bootstrap-css"
     />
-    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   </head>
+
   <body id="page-top">
     <!-- Navbar-->
     <nav
@@ -73,12 +72,12 @@
     <header class="bg text-white">
       <div class="container text-center">
         <h1 class="fw-bolder">Chabot's Computer Hardware Club</h1>
-        <p class="lead">
+        <p class="lead text-white">
           Our club's primary objective is to help each other learn and discuss
           about computer hardware and technology-related topics.
         </p>
         <br />
-        <a class="btn btn-lg btn-light" href="#contact_us">Join here!</a>
+        <a class="btn btn-lg btn-light" href="#about">Click to Learn more!</a>
       </div>
     </header>
 
@@ -105,10 +104,13 @@
               <li>And more!</li>
             </ul>
             <p class="lead">
-              Interested in making projects and games?
+              Interested in making projects and games with us?
               Check out our repository here!
-              <br>
+              <br/>
               <a href="https://github.com/Atypics3/chc-projects-games">CHC's Games/Projects</a>
+              <br/><br/>
+              Past discussion topics and slides: <br/>
+              <a href="https://drive.google.com/drive/folders/1BKGuGB5mI4rDw-aVI4jMK_V76DoC6t7H?usp=sharing">Topics/Slides</a>
             </p>
           </div>
         </div>
@@ -127,7 +129,7 @@
               More changes and improvements will be made as needed.
             </p>
             <br>
-            <p>No other news have been noted.</p>
+            <p>Following the next Spring semester, we will be likely be meeting in-person and the schedule will deviate a bit from what we have been doing currently. Please stay tuned for the announcement!</p>
           </div>
         </div>
       </div>
@@ -211,12 +213,17 @@
                 >chabot.ch.club@gmail.com</a
               >
               for reference.
+              <br/>
+              <p class="lead text-danger">
+              Please also read the club's constitution before joining:<br/>
+            <a href="https://docs.google.com/document/d/1a-FB7J0s2NmIJryKXOSxgUcJRa_g5tZg/edit?usp=sharing&ouid=108719851211502331552&rtpof=true&sd=true">Click here</a>
+              </p>
             </p>
-            <br />
+          
             <!-- contact bars, uses formspree API -->
             <div class="container">
               <p class="lead">
-                Please fill out the form below and click submit in order to get
+                Once you are done, please fill out the form below and click submit in order to get
                 meeting notifications via email!
               </p>
               <!-- submit form and submit/clear buttons -->
@@ -241,7 +248,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="message">Message</label>
+                  <label for="message">Message (optional)</label>
                   <textarea
                     name="message"
                     id="message"
@@ -278,7 +285,7 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 
-    <!-- clear function, only works here for some reason -->
+    <!-- clear function -->
     <script>
     function clearFtn() {
       document.getElementById("my-form").reset();
