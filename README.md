@@ -1,2 +1,2 @@
 # chc_website
-The source code for Chabot's Computer Hardware Club
+The source code of the website for Chabot's Computer Hardware Club
